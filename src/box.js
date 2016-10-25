@@ -63,7 +63,8 @@ var BoxParser = {
 		[ "schi" ],
 		[ "trgr" ],
 		[ "udta", ["kind"] ],
-		[ "iprp" ]
+		[ "iprp" ],
+		[ "wave" ]
 	],
 	sampleEntryCodes : [ 
 		/* 4CC as registered on http://mp4ra.org/codecs.html */
