@@ -152,9 +152,10 @@ BoxParser.hvc1SampleEntry.prototype.getCodec = function() {
 
 BoxParser.mp4aSampleEntry.prototype.getCodec = function() {
 	var baseCodec = BoxParser.SampleEntry.prototype.getCodec.call(this);
-	if (this.esds && this.esds.esd) {
-		var oti = this.esds.esd.getOTI();
-		var dsi = this.esds.esd.getAudioConfig();
+	var esds = this.esds || (this.wave || {}).esds;
+	if (esds && esds.esd) {
+		var oti = esds.esd.getOTI();
+		var dsi = esds.esd.getAudioConfig();
 		return baseCodec+"."+BoxParser.decimalToHex(oti)+(dsi ? "."+dsi: "");
 	} else {
 		return baseCodec;
