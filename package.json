@@ -1,6 +1,6 @@
 {
   "name": "mp4box-vg",
-  "version": "0.3.16-vg1",
+  "version": "0.3.16-vg2",
   "description": "JavaScript version of GPAC's MP4Box tool with some QuickTime features support and bugfixes.",
   "keywords": [
     "mp4",
@@ -9,7 +9,7 @@
     "streaming"
   ],
   "homepage": "https://github.com/chugai/mp4box.js/tree/vg",
-  "main": "dist/mp4box.all.js",
+  "main": "dist/mp4box-vg.all.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:chugai/mp4box.js.git"
