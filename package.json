@@ -1,6 +1,6 @@
 {
   "name": "mp4box-vg",
-  "version": "0.3.16-vg",
+  "version": "0.3.16-vg1",
   "description": "JavaScript version of GPAC's MP4Box tool with some QuickTime features support and bugfixes.",
   "keywords": [
     "mp4",
